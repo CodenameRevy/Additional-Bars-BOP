@@ -1,9 +1,15 @@
 package com.codenamerevy.additionalbarsbop.common.registry;
+import com.codenamerevy.additionalbars.common.AdditionalBars;
 import com.codenamerevy.additionalbars.common.registry.ABBlocks;
+import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
 public class ABBlocksBOP extends ABBlocks {
+	public static final DeferredRegister<Block> BOP_BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AdditionalBarsBOP.MODID);
+
 	public static final RegistryObject<Block> FIR_BARS = BOP_BLOCKS.register("fir_bars", ABBlocks::createBarsBlock);
 	public static final RegistryObject<Block> REDWOOD_BARS = BOP_BLOCKS.register("redwood_bars", ABBlocks::createBarsBlock);
 	public static final RegistryObject<Block> CHERRY_BARS = BOP_BLOCKS.register("cherry_bars", ABBlocks::createBarsBlock);

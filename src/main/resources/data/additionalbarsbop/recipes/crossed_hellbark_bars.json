@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "additionalbarsbop:hellbark_bars"
+    }
+  },
+  "result": {
+    "item": "additionalbarsbop:crossed_hellbark_bars",
+    "count": 2
+  }
+}

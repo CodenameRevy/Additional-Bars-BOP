@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "additionalbarsbop:dead_bars"
+    }
+  },
+  "result": {
+    "item": "additionalbarsbop:horizontal_dead_bars",
+    "count": 12
+  }
+}

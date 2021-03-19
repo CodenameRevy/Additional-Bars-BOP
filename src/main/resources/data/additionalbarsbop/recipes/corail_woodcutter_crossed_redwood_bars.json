@@ -1,0 +1,18 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "item": "biomesoplenty:redwood_log"
+  },
+  "result": "additionalbarsbop:crossed_redwood_bars",
+  "count": 3,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ]
+}

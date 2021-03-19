@@ -1,13 +1,16 @@
 package com.codenamerevy.additionalbarsbop.common.registry;
 
 import com.codenamerevy.additionalbars.common.AdditionalBars;
+import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
-
-import static com.codenamerevy.additionalbars.common.registry.ABItems.BOP_ITEMS;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
 public class ABItemsBOP {
+	public static final DeferredRegister<Item> BOP_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalBarsBOP.MODID);
+
 	public static final RegistryObject<Item> FIR_BARS                          = BOP_ITEMS.register("fir_bars",                           () -> new BlockItem(ABBlocksBOP.FIR_BARS.get(),                             new Item.Properties().group(AdditionalBars.ADDITIONAL_BARS)));
 	public static final RegistryObject<Item> REDWOOD_BARS                      = BOP_ITEMS.register("redwood_bars",                       () -> new BlockItem(ABBlocksBOP.REDWOOD_BARS.get(),                         new Item.Properties().group(AdditionalBars.ADDITIONAL_BARS)));
 	public static final RegistryObject<Item> CHERRY_BARS                       = BOP_ITEMS.register("cherry_bars",                        () -> new BlockItem(ABBlocksBOP.CHERRY_BARS.get(),                          new Item.Properties().group(AdditionalBars.ADDITIONAL_BARS)));

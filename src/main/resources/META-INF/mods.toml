@@ -24,15 +24,8 @@ This mod adds additional bars to the game that go along with Iron Bars!
 '''
 
 [[dependencies.additionalbarsbop]] #optional
-    modId="forge" #mandatory
+    modId="additionalbars" #mandatory
     mandatory=true #mandatory
-    versionRange="[35, 36,)" #mandatory
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.additionalbarsbop]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.16.4,)"
-    ordering="NONE"
+    versionRange="[2,)" #mandatory
+    ordering="BEFORE"
     side="BOTH"
