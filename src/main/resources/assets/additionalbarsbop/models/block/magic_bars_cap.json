@@ -1,0 +1,6 @@
+{
+  "parent": "additionalbars:block/td/cap",
+  "textures": {
+        "texture": "biomesoplenty:block/magic_planks"
+  }
+}
