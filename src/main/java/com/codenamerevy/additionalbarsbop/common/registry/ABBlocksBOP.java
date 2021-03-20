@@ -1,5 +1,4 @@
 package com.codenamerevy.additionalbarsbop.common.registry;
-import com.codenamerevy.additionalbars.common.AdditionalBars;
 import com.codenamerevy.additionalbars.common.registry.ABBlocks;
 import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
 import net.minecraft.block.Block;

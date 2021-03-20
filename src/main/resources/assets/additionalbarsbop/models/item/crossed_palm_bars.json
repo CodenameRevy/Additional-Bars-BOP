@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "additionalbars:block/crossed_palm_bars"
+    "layer0": "additionalbarsbop:block/crossed_palm_bars"
   }
 }

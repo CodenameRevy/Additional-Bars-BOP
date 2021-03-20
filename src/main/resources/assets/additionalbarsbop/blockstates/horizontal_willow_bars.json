@@ -1,5 +1,13 @@
 {
   "variants": {
-    "": { "model": "additionalbarsbop:block/horizontal_willow_bars" }
+    "type=bottom": {
+      "model": "additionalbarsbop:block/horizontal_willow_bars"
+    },
+    "type=double": {
+      "model": "additionalbarsbop:block/horizontal_willow_bars_com"
+    },
+    "type=top": {
+      "model": "additionalbarsbop:block/horizontal_willow_bars_top"
+    }
   }
 }

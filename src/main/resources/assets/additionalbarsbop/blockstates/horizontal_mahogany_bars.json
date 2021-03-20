@@ -1,5 +1,13 @@
 {
   "variants": {
-    "": { "model": "additionalbarsbop:block/horizontal_mahogany_bars" }
+    "type=bottom": {
+      "model": "additionalbarsbop:block/horizontal_mahogany_bars"
+    },
+    "type=double": {
+      "model": "additionalbarsbop:block/horizontal_mahogany_bars_com"
+    },
+    "type=top": {
+      "model": "additionalbarsbop:block/horizontal_mahogany_bars_top"
+    }
   }
 }

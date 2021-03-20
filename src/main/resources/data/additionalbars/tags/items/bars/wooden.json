@@ -4,7 +4,7 @@
   "values": [
     "additionalbarsbop:fir_bars",
     "additionalbarsbop:redwood_bars",
-    "additionalbarsbop:cherry_oak_bars",
+    "additionalbarsbop:cherry_bars",
     "additionalbarsbop:mahogany_bars",
     "additionalbarsbop:jacaranda_bars",
     "additionalbarsbop:palm_bars",
@@ -16,7 +16,7 @@
 
     "additionalbarsbop:crossed_fir_bars",
     "additionalbarsbop:crossed_redwood_bars",
-    "additionalbarsbop:crossed_cherry_oak_bars",
+    "additionalbarsbop:crossed_cherry_bars",
     "additionalbarsbop:crossed_mahogany_bars",
     "additionalbarsbop:crossed_jacaranda_bars",
     "additionalbarsbop:crossed_palm_bars",
@@ -28,7 +28,7 @@
 
     "additionalbarsbop:horizontal_fir_bars",
     "additionalbarsbop:horizontal_redwood_bars",
-    "additionalbarsbop:horizontal_cherry_oak_bars",
+    "additionalbarsbop:horizontal_cherry_bars",
     "additionalbarsbop:horizontal_mahogany_bars",
     "additionalbarsbop:horizontal_jacaranda_bars",
     "additionalbarsbop:horizontal_palm_bars",
@@ -40,7 +40,7 @@
 
     "additionalbarsbop:horizontal_crossed_fir_bars",
     "additionalbarsbop:horizontal_crossed_redwood_bars",
-    "additionalbarsbop:horizontal_crossed_cherry_oak_bars",
+    "additionalbarsbop:horizontal_crossed_cherry_bars",
     "additionalbarsbop:horizontal_crossed_mahogany_bars",
     "additionalbarsbop:horizontal_crossed_jacaranda_bars",
     "additionalbarsbop:horizontal_crossed_palm_bars",

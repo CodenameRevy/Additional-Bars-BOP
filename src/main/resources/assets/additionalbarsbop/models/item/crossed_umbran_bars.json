@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "additionalbars:block/crossed_umbran_bars"
+    "layer0": "additionalbarsbop:block/crossed_umbran_bars"
   }
 }

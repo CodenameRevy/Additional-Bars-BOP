@@ -1,0 +1,4 @@
+{
+	"parent": "additionalbars:block/parent/td/horizontal/crossed/top",
+	"textures":{"texture": "biomesoplenty:block/crossed_hellbark_planks"}
+}
