@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "additionalbars:item/parent/bars_inventory",
   "textures": {
-    "layer0": "additionalbarsbop:block/jacaranda_bars"
+    "texture": "biomesoplenty:block/jacaranda_planks"
   }
 }
