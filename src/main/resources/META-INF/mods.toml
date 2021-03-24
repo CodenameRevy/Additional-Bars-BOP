@@ -19,3 +19,10 @@ description='''Support for Biomes O Plenty wood types for Additional Bars'''
     versionRange="[2,)" #mandatory
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.additionalbarsbop]] #optional
+    modId="biomesoplenty" #mandatory
+    mandatory=true #mandatory
+    versionRange="[13,)" #mandatory
+    ordering="AFTER"
+    side="BOTH"
