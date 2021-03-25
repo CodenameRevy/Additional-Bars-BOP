@@ -1,4 +1,4 @@
 {
 	"parent": "additionalbars:block/parent/td/horizontal/crossed/com",
-	"textures":{"texture": "biomesoplenty:block/crossed_willow_planks"}
+	"textures":{"texture": "biomesoplenty:block/willow_planks"}
 }
