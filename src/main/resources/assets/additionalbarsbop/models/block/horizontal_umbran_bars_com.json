@@ -1,4 +1,4 @@
 {
-	"parent": "additionalbars:block/parent/td/horizontal/crossed/com",
+	"parent": "additionalbars:block/parent/td/horizontal/com",
 	"textures":{"texture": "biomesoplenty:block/umbran_planks"}
 }
