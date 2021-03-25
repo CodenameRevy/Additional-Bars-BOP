@@ -1,6 +1,6 @@
 {
   "parent": "additionalbars:block/parent/td/cap",
   "textures": {
-    "parent": "biomesoplenty:block/dead_planks"
+    "texture": "biomesoplenty:block/dead_planks"
   }
 }

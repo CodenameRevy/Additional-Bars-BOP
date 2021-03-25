@@ -1,6 +1,6 @@
 {
   "parent": "additionalbars:block/parent/td/cap",
   "textures": {
-    "parent": "biomesoplenty:block/mahogany_planks"
+    "texture": "biomesoplenty:block/mahogany_planks"
   }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "additionalbars:block/parent/td/crossed/crossed_side",
     "textures": {
-        "parent": "biomesoplenty:block/cherry_planks"
+        "texture": "biomesoplenty:block/cherry_planks"
     }
 }

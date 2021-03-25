@@ -1,6 +1,6 @@
 {
     "parent": "additionalbars:block/parent/td/post",
     "textures": {
-        "parent": "biomesoplenty:block/fir_planks"
+        "texture": "biomesoplenty:block/fir_planks"
     }
 }

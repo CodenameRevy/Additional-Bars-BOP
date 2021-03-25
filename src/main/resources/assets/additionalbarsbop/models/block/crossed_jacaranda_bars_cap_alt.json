@@ -1,6 +1,6 @@
 {
     "parent": "additionalbars:block/parent/td/cap_alt",
     "textures": {
-        "parent": "biomesoplenty:block/jacaranda_planks"
+        "texture": "biomesoplenty:block/jacaranda_planks"
     }
 }

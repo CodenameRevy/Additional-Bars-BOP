@@ -1,4 +1,4 @@
 {
 	"parent": "additionalbars:block/parent/td/horizontal/crossed/com",
-	"textures":{"texture": "biomesoplenty:block/crossed_cherry_planks"}
+	"textures":{"texture": "biomesoplenty:block/cherry_planks"}
 }
