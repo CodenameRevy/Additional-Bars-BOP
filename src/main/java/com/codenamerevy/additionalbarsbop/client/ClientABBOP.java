@@ -26,7 +26,7 @@ public class ClientABBOP {
 
 	@SubscribeEvent
 	public static void clientSetup (final FMLClientSetupEvent event) {
-		AdditionalBars.LOGGER.debug("\n---------------------------------------\n[ADDITIONAL BARS BOP] Doing client stuff...\n---------------------------------------\n");
+		AdditionalBars.LOGGER.debug("[ADDITIONAL BARS BOP] Doing client stuff...");
 
 		RenderTypeLookup.setRenderLayer(ABBlocksBOP.FIR_BARS.get(), RenderType.getCutout());
 		RenderTypeLookup.setRenderLayer(ABBlocksBOP.REDWOOD_BARS.get(), RenderType.getCutout());
