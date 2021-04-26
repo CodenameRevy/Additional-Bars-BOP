@@ -5,6 +5,7 @@
       "modid": "biomesoplenty"
     }
   ],
+  "group": "bars",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
