@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ],
+	"type": "minecraft:crafting_shapeless",
+	"group": "crossed_to_horizontal",
+	"ingredients": [
+    {
+      "item": "additionalbarsbop:crossed_mahogany_bars"
+    }
+  ],
+  "result": {
+    "item": "additionalbarsbop:horizontal_crossed_mahogany_bars"
+  }
+}

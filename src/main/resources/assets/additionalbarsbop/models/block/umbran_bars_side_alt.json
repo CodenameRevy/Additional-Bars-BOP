@@ -1,6 +1,6 @@
 {
     "parent": "additionalbars:block/parent/td/side_alt",
     "textures": {
-        "texture": "biomesoplenty:block/willow_planks"
+        "texture": "biomesoplenty:block/umbran_planks"
     }
 }
