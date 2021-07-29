@@ -2,14 +2,18 @@ package com.codenamerevy.additionalbarsbop.common.registry;
 
 import com.codenamerevy.additionalbars.common.content.block.HorizontalBarsSlabBlock;
 import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
-import net.minecraft.block.*;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.entity.EntityType;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.IBlockReader;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.IronBarsBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -64,8 +68,8 @@ public class ABBlocksBOP {
 	public static final RegistryObject<Block> HORIZONTAL_CROSSED_UMBRAN_BARS = BOP_BLOCKS.register("horizontal_crossed_umbran_bars", ABBlocksBOP::createHorizontalBarsBlock);
 	public static final RegistryObject<Block> HORIZONTAL_CROSSED_HELLBARK_BARS = BOP_BLOCKS.register("horizontal_crossed_hellbark_bars", ABBlocksBOP::createHorizontalBarsBlock);
 
-	private static PaneBlock createBarsBlock() {
-		return new PaneBlock(AbstractBlock.Properties.create(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).harvestTool(ToolType.AXE).harvestLevel(0).hardnessAndResistance(3.0F, 4.0F).notSolid().setAllowsSpawn(ABBlocksBOP::never).setOpaque(ABBlocksBOP::never).setSuffocates(ABBlocksBOP::never).setBlocksVision(ABBlocksBOP::never));
+	private static IronBarsBlock createBarsBlock() {
+		return new IronBarsBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).harvestTool(ToolType.AXE).harvestLevel(0).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never));
 	}
 //
 //	private static PaneBlock createBarsBlock(Material material, MaterialColor color, SoundType sound) {
@@ -77,7 +81,7 @@ public class ABBlocksBOP {
 //	}
 
 	private static HorizontalBarsSlabBlock createHorizontalBarsBlock() {
-		return new HorizontalBarsSlabBlock(AbstractBlock.Properties.create(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).harvestTool(ToolType.AXE).harvestLevel(0).hardnessAndResistance(3.0F, 4.0F).notSolid().setAllowsSpawn(ABBlocksBOP::never).setOpaque(ABBlocksBOP::never).setSuffocates(ABBlocksBOP::never).setBlocksVision(ABBlocksBOP::never));
+		return new HorizontalBarsSlabBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).harvestTool(ToolType.AXE).harvestLevel(0).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never));
 	}
 
 //	private static HorizontalBarsSlabBlock createHorizontalBarsBlock(Material material, MaterialColor color, SoundType sound) {
@@ -88,6 +92,6 @@ public class ABBlocksBOP {
 //		return new HorizontalBarsSlabBlock(AbstractBlock.Properties.create(material, color).sound(sound).harvestTool(tool).harvestLevel(0).hardnessAndResistance(hardness, resistance).notSolid().setAllowsSpawn(ABBlocksBOP::never).setOpaque(ABBlocksBOP::never).setSuffocates(ABBlocksBOP::never).setBlocksVision(ABBlocksBOP::never));
 //	}
 
-	private static Boolean never(BlockState blockState, IBlockReader blockView, BlockPos blockPos, EntityType<?> entityType) { return false; }
-	private static boolean never(BlockState blockState, IBlockReader blockView, BlockPos blockPos) { return false; }
+	private static Boolean never(BlockState blockState, BlockGetter blockView, BlockPos blockPos, EntityType<?> entityType) { return false; }
+	private static boolean never(BlockState blockState, BlockGetter blockView, BlockPos blockPos) { return false; }
 }

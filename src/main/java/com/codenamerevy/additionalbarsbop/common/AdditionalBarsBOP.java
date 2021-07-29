@@ -3,9 +3,9 @@ package com.codenamerevy.additionalbarsbop.common;
 import com.codenamerevy.additionalbars.common.AdditionalBars;
 import com.codenamerevy.additionalbarsbop.common.registry.ABBlocksBOP;
 import com.codenamerevy.additionalbarsbop.common.registry.ABItemsBOP;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.util.IItemProvider;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -162,7 +162,7 @@ public class AdditionalBarsBOP {
 			case "horizontal_crossed_hellbark_bars": return ABItemsBOP.HORIZONTAL_CROSSED_HELLBARK_BARS.get();
 			case "horizontal_crossed_cherry_bars": return ABItemsBOP.HORIZONTAL_CROSSED_CHERRY_BARS.get();
 		}
-		IItemProvider block = missingBlock(name);
+		ItemLike block = missingBlock(name);
 		return block == null ? null : block.asItem();
 	}
 
