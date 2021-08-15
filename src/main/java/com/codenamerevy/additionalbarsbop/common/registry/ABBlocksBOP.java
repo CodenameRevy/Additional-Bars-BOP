@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -69,7 +68,7 @@ public class ABBlocksBOP {
 	public static final RegistryObject<Block> HORIZONTAL_CROSSED_HELLBARK_BARS = BOP_BLOCKS.register("horizontal_crossed_hellbark_bars", ABBlocksBOP::createHorizontalBarsBlock);
 
 	private static IronBarsBlock createBarsBlock() {
-		return new IronBarsBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).harvestTool(ToolType.AXE).harvestLevel(0).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never));
+		return new IronBarsBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never));
 	}
 //
 //	private static PaneBlock createBarsBlock(Material material, MaterialColor color, SoundType sound) {
@@ -81,7 +80,7 @@ public class ABBlocksBOP {
 //	}
 
 	private static HorizontalBarsSlabBlock createHorizontalBarsBlock() {
-		return new HorizontalBarsSlabBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).harvestTool(ToolType.AXE).harvestLevel(0).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never));
+		return new HorizontalBarsSlabBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never));
 	}
 
 //	private static HorizontalBarsSlabBlock createHorizontalBarsBlock(Material material, MaterialColor color, SoundType sound) {
