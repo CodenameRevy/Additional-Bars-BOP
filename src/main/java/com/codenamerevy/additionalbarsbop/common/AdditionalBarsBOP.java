@@ -1,8 +1,8 @@
-package com.gamma1772.additionalbarsbop.common;
+package com.codenamerevy.additionalbarsbop.common;
 
-import com.gamma1772.additionalbars.common.AdditionalBars;
-import com.gamma1772.additionalbarsbop.common.registry.ABBlocksBOP;
-import com.gamma1772.additionalbarsbop.common.registry.ABItemsBOP;
+import com.codenamerevy.additionalbars.common.AdditionalBars;
+import com.codenamerevy.additionalbarsbop.common.registry.ABBlocksBOP;
+import com.codenamerevy.additionalbarsbop.common.registry.ABItemsBOP;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.util.IItemProvider;
