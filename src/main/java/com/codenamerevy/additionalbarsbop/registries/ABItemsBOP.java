@@ -1,12 +1,12 @@
-package com.codenamerevy.additionalbarsbop.common.registry;
+package com.codenamerevy.additionalbarsbop.registries;
 
-import com.codenamerevy.additionalbars.common.AdditionalBars;
-import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
+import com.codenamerevy.additionalbars.AdditionalBars;
+import com.codenamerevy.additionalbarsbop.AdditionalBarsBOP;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ABItemsBOP {
 	public static final DeferredRegister<Item> BOP_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalBarsBOP.MODID);

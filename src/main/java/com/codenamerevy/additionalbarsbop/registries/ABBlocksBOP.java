@@ -1,7 +1,7 @@
-package com.codenamerevy.additionalbarsbop.common.registry;
+package com.codenamerevy.additionalbarsbop.registries;
 
-import com.codenamerevy.additionalbars.common.content.block.HorizontalBarsSlabBlock;
-import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
+import com.codenamerevy.additionalbars.content.block.HorizontalBarsSlabBlock;
+import com.codenamerevy.additionalbarsbop.AdditionalBarsBOP;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.BlockGetter;
@@ -12,9 +12,9 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ABBlocksBOP {
 	public static final DeferredRegister<Block> BOP_BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AdditionalBarsBOP.MODID);

@@ -1,10 +1,9 @@
-package com.codenamerevy.additionalbarsbop.client;
+package com.codenamerevy.additionalbarsbop;
 
-import com.codenamerevy.additionalbars.common.AdditionalBars;
-import com.codenamerevy.additionalbarsbop.common.AdditionalBarsBOP;
-import com.codenamerevy.additionalbarsbop.common.registry.ABBlocksBOP;
-import net.minecraft.client.renderer.RenderType;
+import com.codenamerevy.additionalbars.AdditionalBars;
+import com.codenamerevy.additionalbarsbop.registries.ABBlocksBOP;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

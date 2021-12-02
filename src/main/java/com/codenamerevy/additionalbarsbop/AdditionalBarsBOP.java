@@ -1,8 +1,8 @@
-package com.codenamerevy.additionalbarsbop.common;
+package com.codenamerevy.additionalbarsbop;
 
-import com.codenamerevy.additionalbars.common.AdditionalBars;
-import com.codenamerevy.additionalbarsbop.common.registry.ABBlocksBOP;
-import com.codenamerevy.additionalbarsbop.common.registry.ABItemsBOP;
+import com.codenamerevy.additionalbars.AdditionalBars;
+import com.codenamerevy.additionalbarsbop.registries.ABBlocksBOP;
+import com.codenamerevy.additionalbarsbop.registries.ABItemsBOP;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
