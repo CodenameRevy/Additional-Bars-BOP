@@ -1,7 +1,7 @@
-package com.codenamerevy.additionalbarsbop.registries;
+package com.gamma1772.additionalbarsbop.registries;
 
-import com.codenamerevy.additionalbars.AdditionalBars;
-import com.codenamerevy.additionalbarsbop.AdditionalBarsBOP;
+import com.gamma1772.additionalbars.AdditionalBars;
+import com.gamma1772.additionalbarsbop.AdditionalBarsBOP;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
