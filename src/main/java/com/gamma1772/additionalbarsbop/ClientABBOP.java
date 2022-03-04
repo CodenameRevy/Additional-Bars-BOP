@@ -1,7 +1,7 @@
-package com.codenamerevy.additionalbarsbop;
+package com.gamma1772.additionalbarsbop;
 
-import com.codenamerevy.additionalbars.AdditionalBars;
-import com.codenamerevy.additionalbarsbop.registries.ABBlocksBOP;
+import com.gamma1772.additionalbarsbop.registries.ABBlocksBOP;
+import com.gamma1772.additionalbars.AdditionalBars;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
