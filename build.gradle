@@ -116,9 +116,10 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    flatDir {
-        dirs "libs"
-    }
+//    flatDir {
+////        dirs "libs"
+////    }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -141,8 +142,8 @@ dependencies {
     //compile 'com.glitchfiend:BiomesOPlenty:13.0.0.433:universal'
     // These dependencies get remapped to your current MCP mappings
     // deobf 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-    implementation project(':AdditionalBars')
-
+    //implementation project(':AdditionalBars')
+    implementation 'com.github.gamma1772:AdditionalBars:3.0.0b'
     // For more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
