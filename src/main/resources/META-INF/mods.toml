@@ -1,13 +1,13 @@
 license="MIT License"
 modLoader="javafml" #mandatory
-loaderVersion="[38,)" #mandatory
+loaderVersion="[39,)" #mandatory
 issueTrackerURL="https://github.com/CodenameRevy/AdditionalBarsBOP/issues" #optional
 
 [[mods]] #mandatory
 modId="additionalbarsbop" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Additional Bars (Biomes o' Plenty addon)" #mandatory
-displayURL="codenamerevy.github.io" #optional
+displayURL="gamma1772.github.io" #optional
 logoFile="logo.png" #optional
 credits='''Gamma1772 (Mod Developer), ruchom4u (Spanish Translations), fantasyair18 (Chinese Traditional (Taiwan) Translations), TheDirectorX, BardinTheDwarf (Russian Translations), Zijuna (German Translations), justmonika (Simple Chinese Translations), mindy15963 (Korean Translations), WadeMason''' #optional
 authors="Gamma1772" #optional
@@ -16,7 +16,7 @@ description='''Support for Biomes O Plenty wood types for Additional Bars'''
 [[dependencies.additionalbarsbop]] #optional
     modId="additionalbars" #mandatory
     mandatory=true #mandatory
-    versionRange="[2,)" #mandatory
+    versionRange="[3,)" #mandatory
     ordering="AFTER"
     side="BOTH"
 
