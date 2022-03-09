@@ -46,29 +46,29 @@ public class ABBlocksBOP {
 	public static final RegistryObject<Block> CROSSED_UMBRAN_BARS = BOP_BLOCKS.register("crossed_umbran_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.CROSSED));
 	public static final RegistryObject<Block> CROSSED_HELLBARK_BARS = BOP_BLOCKS.register("crossed_hellbark_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.CROSSED));
 
-	public static final RegistryObject<Block> HORIZONTAL_FIR_BARS = BOP_BLOCKS.register("horizontal_fir_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_REDWOOD_BARS = BOP_BLOCKS.register("horizontal_redwood_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CHERRY_BARS = BOP_BLOCKS.register("horizontal_cherry_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_MAHOGANY_BARS = BOP_BLOCKS.register("horizontal_mahogany_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_JACARANDA_BARS = BOP_BLOCKS.register("horizontal_jacaranda_bars",() -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_PALM_BARS = BOP_BLOCKS.register("horizontal_palm_bars",() -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_WILLOW_BARS = BOP_BLOCKS.register("horizontal_willow_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_DEAD_BARS = BOP_BLOCKS.register("horizontal_dead_bars",() -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_MAGIC_BARS = BOP_BLOCKS.register("horizontal_magic_bars",() -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_UMBRAN_BARS = BOP_BLOCKS.register("horizontal_umbran_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_HELLBARK_BARS = BOP_BLOCKS.register("horizontal_hellbark_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_FIR_BARS = BOP_BLOCKS.register("horizontal_fir_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_REDWOOD_BARS = BOP_BLOCKS.register("horizontal_redwood_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CHERRY_BARS = BOP_BLOCKS.register("horizontal_cherry_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_MAHOGANY_BARS = BOP_BLOCKS.register("horizontal_mahogany_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_JACARANDA_BARS = BOP_BLOCKS.register("horizontal_jacaranda_bars",() -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_PALM_BARS = BOP_BLOCKS.register("horizontal_palm_bars",() -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_WILLOW_BARS = BOP_BLOCKS.register("horizontal_willow_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_DEAD_BARS = BOP_BLOCKS.register("horizontal_dead_bars",() -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_MAGIC_BARS = BOP_BLOCKS.register("horizontal_magic_bars",() -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_UMBRAN_BARS = BOP_BLOCKS.register("horizontal_umbran_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_HELLBARK_BARS = BOP_BLOCKS.register("horizontal_hellbark_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
 
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_FIR_BARS = BOP_BLOCKS.register("horizontal_crossed_fir_bars",  () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL, BlockTypeEnum.CROSSED));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_REDWOOD_BARS = BOP_BLOCKS.register("horizontal_crossed_redwood_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_CHERRY_BARS = BOP_BLOCKS.register("horizontal_crossed_cherry_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_MAHOGANY_BARS = BOP_BLOCKS.register("horizontal_crossed_mahogany_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_JACARANDA_BARS = BOP_BLOCKS.register("horizontal_crossed_jacaranda_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_PALM_BARS = BOP_BLOCKS.register("horizontal_crossed_palm_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_WILLOW_BARS = BOP_BLOCKS.register("horizontal_crossed_willow_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_DEAD_BARS = BOP_BLOCKS.register("horizontal_crossed_dead_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_MAGIC_BARS = BOP_BLOCKS.register("horizontal_crossed_magic_bars",() -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_UMBRAN_BARS = BOP_BLOCKS.register("horizontal_crossed_umbran_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
-	public static final RegistryObject<Block> HORIZONTAL_CROSSED_HELLBARK_BARS = BOP_BLOCKS.register("horizontal_crossed_hellbark_bars", () -> createBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_FIR_BARS = BOP_BLOCKS.register("horizontal_crossed_fir_bars",  () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL, BlockTypeEnum.CROSSED));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_REDWOOD_BARS = BOP_BLOCKS.register("horizontal_crossed_redwood_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_CHERRY_BARS = BOP_BLOCKS.register("horizontal_crossed_cherry_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_MAHOGANY_BARS = BOP_BLOCKS.register("horizontal_crossed_mahogany_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_JACARANDA_BARS = BOP_BLOCKS.register("horizontal_crossed_jacaranda_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_PALM_BARS = BOP_BLOCKS.register("horizontal_crossed_palm_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_WILLOW_BARS = BOP_BLOCKS.register("horizontal_crossed_willow_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_DEAD_BARS = BOP_BLOCKS.register("horizontal_crossed_dead_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_MAGIC_BARS = BOP_BLOCKS.register("horizontal_crossed_magic_bars",() -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_UMBRAN_BARS = BOP_BLOCKS.register("horizontal_crossed_umbran_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
+	public static final RegistryObject<Block> HORIZONTAL_CROSSED_HELLBARK_BARS = BOP_BLOCKS.register("horizontal_crossed_hellbark_bars", () -> createHorizontalBarsBlock(BOPBlockTypeEnum.BOP, BlockTypeEnum.HORIZONTAL));
 
 	private static BasicBarsBlock createBarsBlock(BlockType... types) {
 		return new BasicBarsBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).sound(SoundType.WOOD).strength(3.0F, 4.0F).noOcclusion().isValidSpawn(ABBlocksBOP::never).isViewBlocking(ABBlocksBOP::never).isSuffocating(ABBlocksBOP::never).isRedstoneConductor(ABBlocksBOP::never), types);
