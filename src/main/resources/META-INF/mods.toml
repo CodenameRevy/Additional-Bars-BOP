@@ -1,6 +1,6 @@
 license="MIT License"
 modLoader="javafml" #mandatory
-loaderVersion="[39,)" #mandatory
+loaderVersion="[40,)" #mandatory
 issueTrackerURL="https://github.com/CodenameRevy/AdditionalBarsBOP/issues" #optional
 
 [[mods]] #mandatory
