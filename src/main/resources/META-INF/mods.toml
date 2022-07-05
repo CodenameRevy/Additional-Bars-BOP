@@ -1,6 +1,6 @@
 license="MIT License"
 modLoader="javafml" #mandatory
-loaderVersion="[40,)" #mandatory
+loaderVersion="[41,)" #mandatory
 issueTrackerURL="https://github.com/CodenameRevy/AdditionalBarsBOP/issues" #optional
 
 [[mods]] #mandatory
@@ -16,13 +16,13 @@ description='''Support for Biomes O Plenty wood types for Additional Bars'''
 [[dependencies.additionalbarsbop]] #optional
     modId="additionalbars" #mandatory
     mandatory=true #mandatory
-    versionRange="[3,)" #mandatory
+    versionRange="[3.3,)" #mandatory
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.additionalbarsbop]] #optional
     modId="biomesoplenty" #mandatory
     mandatory=true #mandatory
-    versionRange="[1.18.2-16,)" #mandatory
+    versionRange="[1.19-17,)" #mandatory
     ordering="AFTER"
     side="BOTH"
